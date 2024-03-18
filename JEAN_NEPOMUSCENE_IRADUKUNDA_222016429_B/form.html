@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-color: skyblue;
+            color: green;
+            font: normal 16px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+	  <p>
+        <center>
+        <ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline;  margin-right: 10px"><a href="./home.html" 
+
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">HOME</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./about.html" 
+
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">ABOUT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./contact.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">CONTACT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./services.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">SERVICES</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./form.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">FORM</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./table.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">TABLE</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./book.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">MYBOOK</a></li>
+    </ul></center>
+    </p>
+    
+    <hr><center>
+    <h2 style="color: #877654;"><i><u>REGISTERED FORM</u></i></h2>
+    
+        <form action="#" method="POST">
+            <table>
+            <label for="id"><b>ID:</b></label>
+            <input type="number" name="id" id="id" required><br><br>
+
+            <label for="fname"><b>First Name:</b></label>
+            <input type="text" name="fname" id="fname" required><br><br>
+
+            <label for="lname"><b>Last Name:</b></label>
+            <input type="text" name="lname" id="lname" required><br><br>
+
+            <label for="date"><b>Date Of Birth:</b></label>
+            <input type="date" name="date" id="date" required><br><br>
+
+            <label for="age"><b>Age:</b></label>
+            <input type="number" name="age" id="age" required><br><br>
+
+
+            <label> <b>Martial Status:</b></label>
+            <input type="radio" name="mrtst" value="dvrc" checked>Divorced
+            <input type="radio" name="mrtst" value="sngl" checked>Single<br>
+            <input type="radio" name="mrtst" value="engd" checked>Engaged
+            <input type="radio" name="mrtst" value="mrd" checked>Married<br><br>
+            
+
+            <label for="salr"><b>Salary:</b></label>
+            <input type="integer" name="salr" id="salr" required><br><br>
+
+
+            <label for="pos"><b>Position:</b></label>
+            <select name="pos" id="pos" required>
+                <option>Manager</option>
+                <option>Accountant</option>
+                <option>CEO</option>
+                <option>CTO</option>
+                <option>Secretary</option>
+                <option>IT</option>
+            </select><br><br>
+
+            <label><b>Gender:</b></label>
+            <input type="radio" name="gend" value="male" checked>Male
+            <input type="radio" name="gend" value="female">Female<br><br>
+
+            <label for="eml"><b>Email:</b></label>
+            <input type="email" name="em" id="em" required><br><br>
+
+
+            <input type="submit" name="sbt" value="SUBMIT">
+            <input type="reset" name="cnl" value="CANCEL"><br>
+            
+        </form>
+    </center>
+</body>
+</html>
